@@ -1,0 +1,20 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, Arial, sans-serif; background: #0f1b2d; color: #eaf0f6; padding: 24px; }
+header { text-align: center; margin-bottom: 20px; }
+header h1 { color: #fff; font-size: 28px; }
+header p { color: #9fb0c3; font-size: 14px; }
+main { max-width: 640px; margin: 0 auto; }
+.barra { display: flex; gap: 10px; margin-bottom: 18px; flex-wrap: wrap; }
+.barra input, .barra select {
+  flex: 1; min-width: 160px; padding: 10px 12px; border-radius: 8px;
+  border: 1px solid #2a3a52; background: #16263d; color: #eaf0f6; font-size: 14px;
+}
+.lista { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.card {
+  background: #16263d; border: 1px solid #2a3a52; border-radius: 10px;
+  padding: 14px 16px; display: flex; justify-content: space-between; align-items: center;
+}
+.card .titulo { font-weight: 700; font-size: 16px; }
+.card .artista { color: #9fb0c3; font-size: 13px; margin-top: 2px; }
+.card .dur { color: #6fd3b6; font-variant-numeric: tabular-nums; font-size: 14px; }
+.vazio { text-align: center; color: #9fb0c3; margin-top: 24px; }

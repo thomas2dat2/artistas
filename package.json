@@ -1,0 +1,12 @@
+{
+  "name": "api-playlist",
+  "version": "1.0.0",
+  "description": "API de playlist - relacionando musicas e artistas (find)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}

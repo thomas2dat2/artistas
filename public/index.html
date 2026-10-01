@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Playlist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎵 Minha Playlist</h1>
+    <p>Backend 2DAT2 — músicas e artistas</p>
+  </header>
+
+  <main>
+    <div class="barra">
+      <input id="busca" type="search" placeholder="Buscar por título ou artista..." />
+      <select id="filtroArtista"><option value="todos">Todos os artistas</option></select>
+    </div>
+
+    <ul id="lista" class="lista"></ul>
+    <p id="vazio" class="vazio">Nenhuma música carregada. (O backend /musicas já está respondendo?)</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
